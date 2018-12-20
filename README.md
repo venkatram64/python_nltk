@@ -9,5 +9,9 @@ pip install nltk
 
 pip install matplotlib
 
+pip install pypdf2
+
+pip install python-docx
+
 C:\Users\XXXXX\AppData\Roaming\nltk_data
 data will be loaded in above folder xxxx=<<username>>
