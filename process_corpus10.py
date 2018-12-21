@@ -10,9 +10,10 @@ def getTextPDF(pdfFileName, password=''):
         text.append(read_pdf.getPage(i).extractText())
     return '\n'.join(text)
 
-pdf_file = "VirtualBoxTroubleshooting.pdf"
+if __name__ == '__main__':
 
-print(getTextPDF(pdf_file))
+    pdf_file = "VirtualBoxTroubleshooting.pdf"
+    print(getTextPDF(pdf_file))
 
 
 

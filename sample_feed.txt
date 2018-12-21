@@ -1,0 +1,10 @@
+https://pythonspot.com/category/nltk/
+
+We can use natural language processing to make predictions.
+
+Example: Given a product review, a computer can predict if its positive or negative based on the text.
+In this article you will learn how to make a prediction program based on natural language processing.
+
+In Natural Language Processing there is a concept known as Sentiment Analysis.
+Given a movie review or a tweet, it can be automatically classified in categories.
+These categories can be user defined (positive, negative) or whichever classes you want
