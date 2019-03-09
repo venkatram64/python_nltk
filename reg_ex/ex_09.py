@@ -1,6 +1,8 @@
 import re
 import time
 
+
+
 def substitution_example():
 
     pattern = r"(?P<value>\d+(,\d{3})*(\.\d{2})?)\s+dollar(s)?"
