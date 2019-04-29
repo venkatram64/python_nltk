@@ -24,7 +24,9 @@ def computeIDF(docList):
 
     #counts the number of document tht contain a word w
     idfDict = dict.fromkeys(docList[0].keys(), 0)
-
+    print("1. compute idf")
+    print(idfDict)
+    print("2")
     for doc in docList:
         for word, val in doc.items():
             if val > 0:
@@ -64,7 +66,7 @@ def convertToDic(wordSet, docA, docB):
 
 def combine_docs(docA, docB):
     bowA = docA.split(" ")
-    bowB = docB. split(" ")
+    bowB = docB.split(" ")
 
     wordSet = set(bowA).union(set(bowB))
 
